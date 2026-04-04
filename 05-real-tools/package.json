@@ -1,0 +1,17 @@
+{
+  "name": "mini-claude-code-tools",
+  "version": "1.0.0",
+  "description": "500行实现迷你 Claude Code 系列第五篇：真实工具调用 Demo",
+  "type": "module",
+  "scripts": {
+    "demo": "npx tsx src/main.ts",
+    "demo:anthropic": "source .env 2>/dev/null; ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY} ANTHROPIC_BASE_URL=${ANTHROPIC_BASE_URL} npx tsx src/main.ts --api"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  }
+}
