@@ -1,0 +1,15 @@
+[package]
+name = "mini-claude-code-rust"
+version = "0.1.0"
+edition = "2021"
+description = "迷你Claude Code的Rust重写版——系列总结篇配套demo"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+glob = "0.3"
+reqwest = { version = "0.12", features = ["json"] }
+dotenvy = "0.15"

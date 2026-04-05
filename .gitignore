@@ -4,3 +4,7 @@ dist/
 *.js
 !*.config.js
 .DS_Store
+
+# Rust
+target/
+Cargo.lock
